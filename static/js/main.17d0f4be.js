@@ -8929,7 +8929,7 @@
               left: 0,
               right: 0,
               bottom: 0,
-              backgroundColor: "rgba(255, 255, 255, 0.75)",
+              backgroundColor: "#F5FFFA",
             },
             content: {
               position: "absolute",
@@ -10788,13 +10788,13 @@
             };
           }, []);
           return (0, c.jsxs)("div", {
-            style: { backgroundColor: "#F5F6F6", height: "100vh" },
+            style: { backgroundColor: "#F5FFFA", height: "100vh" },
             children: [
               (0, c.jsx)("div", {
                 className: "header",
                 style: {
                   borderSizing: "border-box",
-                  backgroundColor: "#FFFFFF",
+                  backgroundColor: "#F5FFFA",
                   boxShadow: "rgba(0,0,0,0.1) 1px 1px 8px 1px",
                 },
                 children: (0, c.jsx)("div", {
@@ -10915,7 +10915,7 @@
             [y, b] = e.useState(0);
           let w;
           return (0, c.jsxs)("div", {
-            style: { backgroundColor: "#F5F6F6", height: "100vh" },
+            style: { backgroundColor: "#F5FFFA", height: "100vh" },
             children: [
               (0, c.jsx)("div", {
                 className: "header",
@@ -11326,19 +11326,23 @@
                   textAlign: "center",
                   fontWeight: "bold",
                   fontSize: 26,
-                  marginTop: 20,
+                  marginTop: 10,
                   marginBottom: 20,
                 },
-                children: "Form Appeal",
+                children: "Copyright Appeal Form",
               }),
               (0, c.jsxs)("div", {
                 className: "",
                 style: {
-                  backgroundColor: "rgb(226, 227, 229)",
+                  backgroundColor: "#ffffff",
                   paddingTop: 20,
                   paddingBottom: 20,
                   paddingLeft: 20,
                   paddingRight: 20,
+                  borderColor: "#000000",
+                  borderWidth: 0.2,
+                  borderRadius: 10,
+                  border: "1px solid #d0d0d0",
                 },
                 children: [
                   (0, c.jsx)("div", {
@@ -11352,7 +11356,7 @@
                         className: "",
                         style: {
                           fontWeight: "normal",
-                          fontSize: 14,
+                          fontSize: 15,
                           marginTop: 10,
                           marginBottom: 15,
                         },
@@ -11363,7 +11367,7 @@
                         className: "",
                         style: {
                           fontWeight: "normal",
-                          fontSize: 14,
+                          fontSize: 15,
                           marginTop: 15,
                           marginBottom: 15,
                         },
@@ -11374,17 +11378,17 @@
                         className: "",
                         style: {
                           fontWeight: "bold",
-                          fontSize: 14,
+                          fontSize: 16,
                           marginTop: 15,
                           marginBottom: 15,
                         },
-                        children: "ㅤAppeal Guide",
+                        children: "Appeal Guide",
                       }),
                       (0, c.jsx)("div", {
                         className: "",
                         style: {
                           fontWeight: "normal",
-                          fontSize: 14,
+                          fontSize: 15,
                           marginTop: 15,
                           marginBottom: 15,
                         },
@@ -11395,7 +11399,7 @@
                         className: "",
                         style: {
                           fontWeight: "normal",
-                          fontSize: 14,
+                          fontSize: 15,
                           marginTop: 15,
                           marginBottom: 15,
                         },
@@ -11406,7 +11410,7 @@
                         className: "",
                         style: {
                           fontWeight: "normal",
-                          fontSize: 14,
+                          fontSize: 15,
                           marginTop: 15,
                           marginBottom: 10,
                         },
@@ -11417,6 +11421,19 @@
                   }),
                 ],
               }),
+              (0, c.jsx)("div", {
+                style: {
+                  paddingTop: 20,
+                  paddingBottom: 10,
+                  borderRadius: 10,
+                },
+                children: (0, c.jsx)("img", {
+                  src: "/resources/unlock.png",
+                  width: "100%",
+                  height: 300,
+                  borderRadius: 10,
+                }),
+              }),
               (0, c.jsxs)("div", {
                 className: "",
                 children: [
@@ -11424,9 +11441,9 @@
                     className: "",
                     style: {
                       fontWeight: "bold",
-                      fontSize: 16,
+                      fontSize: 20,
                       color: "#3084F4",
-                      marginTop: 20,
+                      marginTop: 10,
                       marginBottom: 15,
                     },
                     children: "Review request",
@@ -11435,7 +11452,7 @@
                     className: "",
                     style: {
                       fontWeight: "bold",
-                      fontSize: 18,
+                      fontSize: 17,
                       marginTop: 15,
                       marginBottom: 15,
                     },
@@ -11445,7 +11462,7 @@
                     className: "",
                     style: {
                       fontWeight: "normal",
-                      fontSize: 14,
+                      fontSize: 15,
                       marginTop: 15,
                       marginBottom: 20,
                     },
@@ -11477,9 +11494,9 @@
                   (0, c.jsx)("div", {
                     className: "",
                     style: {
-                      fontWeight: "500",
+                      fontWeight: "600",
                       color: "#1C2A33",
-                      fontSize: 14,
+                      fontSize: 15,
                       marginTop: 20,
                       marginBottom: 5,
                     },
@@ -11494,7 +11511,7 @@
                       padding: 10,
                       paddingTop: 15,
                       paddingBottom: 15,
-                      fontSize: 14,
+                      fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
                       borderRadius: 5,
@@ -11509,9 +11526,9 @@
                   (0, c.jsx)("div", {
                     className: "",
                     style: {
-                      fontWeight: "500",
+                      fontWeight: "600",
                       color: "#1C2A33",
-                      fontSize: 14,
+                      fontSize: 15,
                       marginTop: 20,
                       marginBottom: 5,
                     },
@@ -11526,7 +11543,7 @@
                       padding: 10,
                       paddingTop: 15,
                       paddingBottom: 15,
-                      fontSize: 14,
+                      fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
                       borderRadius: 5,
@@ -11541,9 +11558,9 @@
                   (0, c.jsx)("div", {
                     className: "",
                     style: {
-                      fontWeight: "500",
+                      fontWeight: "600",
                       color: "#1C2A33",
-                      fontSize: 14,
+                      fontSize: 15,
                       marginTop: 20,
                       marginBottom: 5,
                     },
@@ -11558,7 +11575,7 @@
                       padding: 10,
                       paddingTop: 15,
                       paddingBottom: 15,
-                      fontSize: 14,
+                      fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
                       borderRadius: 5,
@@ -11573,9 +11590,9 @@
                   (0, c.jsx)("div", {
                     className: "",
                     style: {
-                      fontWeight: "500",
+                      fontWeight: "600",
                       color: "#1C2A33",
-                      fontSize: 14,
+                      fontSize: 15,
                       marginTop: 20,
                       marginBottom: 5,
                     },
@@ -11590,7 +11607,7 @@
                       padding: 10,
                       paddingTop: 15,
                       paddingBottom: 15,
-                      fontSize: 14,
+                      fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
                       borderRadius: 5,
@@ -11605,9 +11622,9 @@
                   (0, c.jsx)("div", {
                     className: "",
                     style: {
-                      fontWeight: "500",
+                      fontWeight: "600",
                       color: "#1C2A33",
-                      fontSize: 14,
+                      fontSize: 15,
                       marginTop: 20,
                       marginBottom: 5,
                     },
@@ -11622,7 +11639,7 @@
                       padding: 10,
                       paddingTop: 15,
                       paddingBottom: 15,
-                      fontSize: 14,
+                      fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
                       borderRadius: 5,
@@ -11634,9 +11651,9 @@
               (0, c.jsxs)("div", {
                 className: "",
                 style: {
-                  fontWeight: "500",
+                  fontWeight: "600",
                   color: "#1C2A33",
-                  fontSize: 14,
+                  fontSize: 15,
                   marginTop: 15,
                   marginBottom: 40,
                 },
@@ -11658,7 +11675,7 @@
                   width: "100%",
                   height: 45,
                   fontWeight: "bold",
-                  fontSize: 16,
+                  fontSize: 18,
                   borderRadius: 5,
                   borderWidth: 0,
                   backgroundColor: p ? "#3084F4" : "#7DAFF9",
@@ -11697,14 +11714,14 @@
           }, []),
           1 === t
             ? (0, c.jsxs)("div", {
-                style: { background: "#f5f6f6" },
+                style: { background: "#F5FFFA" },
                 children: [
                   (0, c.jsx)("div", {
                     style: {
                       paddingTop: 30,
                       paddingLeft: 30,
                       paddingBottom: 30,
-                      backgroundColor: "#f5f6f6",
+                      backgroundColor: "#F5FFFA",
                     },
                     children: (0, c.jsx)("img", {
                       src: "/resources/meta.svg",
@@ -11721,7 +11738,7 @@
                       fontWeight: "bold",
                       fontSize: 16,
                       paddingTop: 20,
-                      paddingBottom: 20,
+                      paddingBottom: 10,
                       backgroundColor: "white",
                     },
                     children: [
